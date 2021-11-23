@@ -1,0 +1,34 @@
+/// REST_CLIENT
+
+GET http://localhost:4000/pet
+
+###
+GET http://localhost:4000/pet/6162b177475308146cec560d
+
+
+###
+POST  http://localhost:4000/pet
+Content-Type: application/json
+
+{
+    "type": "Pet 1",
+    "name": "Đi lạc"
+}
+###
+
+POST  http://localhost:4000/account/signup
+Content-Type: application/json
+
+{
+    "username": "duong@gmail.com",
+    "password": "123456"
+}
+
+###
+POST  http://localhost:4000/account/signin
+Content-Type: application/json
+
+{
+    "username": "duong@gmail.com",
+    "password": "123456"
+}
